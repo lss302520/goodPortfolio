@@ -1,0 +1,149 @@
+* {margin:0; padding:0;}
+ul, li{list-style:none;}
+a{color:#ffffff; text-decoration:none;}
+
+
+@font-face {
+    font-family: 'Middleschool_student';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/naverfont_08@1.0/Middleschool_student.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+	font-family: 'Vitro_core';
+	src:
+		url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-10-21@1.0/Vitro_core.woff')
+		format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+    font-family: 'Dongle-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2108_2@1.0/Dongle-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+#header{
+	width:100%;
+	height:82px;
+	background-color:#b7b7ff;
+	color:white;
+	text-align:center;
+	line-height:85px;
+	font-family:'Middleschool_student';
+	font-size: 28px;
+	
+}
+
+h1{
+	position:fixed;
+	left:70px;
+	top:-5px;
+}
+
+.h1 span:nth-child(1){
+	color:#ec5959;
+}
+
+.h1 span:nth-child(2){
+	color:#efb47e;
+}
+
+.h1 span:nth-child(3){
+	color:#efe976;
+}
+
+.h1 span:nth-child(4){
+	color:#8fee7b;
+}
+
+.h1 span:nth-child(5){
+	color:#8fbfef;
+}
+
+.h1 span:nth-child(6){
+	color:#7a80e4;
+}
+
+.h1 span:nth-child(7){
+	color:#9e7bca;
+}
+
+#nav{
+	width:100%;
+	height:40px;
+	background-color:#96bbe4;
+	color:white;
+	line-height:40px;
+}
+
+#nav ul li a{
+	float: left;
+	padding:0 10px ;
+}
+
+.sectionq{
+	position:fixed;
+	width:100%;
+	height:90%;
+	background-color:#e8e8e8;
+}
+
+.text{
+	font-family:'Middleschool_student';
+	font-size:60px;
+}
+
+.animal_table{
+	text-align:center;
+	border:1px solid black;
+}
+
+.text2{
+	text-align:center;
+	font-family:'Dongle-Regular';
+	font-size: 25px;
+	line-height:50px;
+}
+
+.text3{
+	text-align:center;
+	font-family:'Dongle-Regular';
+	font-size: 25px;
+	line-height:50px;	
+}
+
+.scroll{
+	height:400px;
+	overflow-y:auto;
+}
+
+.title{
+	padding:30px 0 20px 0;
+	text-align:center;
+}
+
+.tb{
+	position:fixed;
+	right:80px;
+	
+}
+
+#footer{
+	position:absolute;
+	bottom:0;
+	width:100%;
+	height:30px;
+	background-color:lightgray;
+	color:black;
+	text-align:center;
+	line-height:30px;
+	font-size:13px;
+}
+
+#footer p{
+	background-color:lightgray;
+}
